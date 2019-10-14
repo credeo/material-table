@@ -104,12 +104,24 @@ class MTableFilterRow extends React.Component {
         <DatePicker
           value={columnDef.tableData.filterValue || null}
           onChange={onDateInputChange}
+          cancelLabel={"Abbrechen"}
+          showTodayButton={true}
+          todayLabel={"Heute"}
+          clearLabel={"Löschen"}
+          okLabel={"Übernehmen"}
+          ampm={false}
           clearable
         />
       );
     } else if (columnDef.type === 'datetime') {
       dateInputElement = (
         <DateTimePicker
+          cancelLabel={"Abbrechen"}
+          showTodayButton={true}
+          todayLabel={"Heute"}
+          clearLabel={"Löschen"}
+          okLabel={"Übernehmen"}
+          ampm={false}
           value={columnDef.tableData.filterValue || null}
           onChange={onDateInputChange}
           clearable
@@ -118,6 +130,12 @@ class MTableFilterRow extends React.Component {
     } else if (columnDef.type === 'time') {
       dateInputElement = (
         <TimePicker
+          cancelLabel={"Abbrechen"}
+          showTodayButton={true}
+          todayLabel={"Heute"}
+          clearLabel={"Löschen"}
+          okLabel={"Übernehmen"}
+          ampm={false}
           value={columnDef.tableData.filterValue || null}
           onChange={onDateInputChange}
           clearable

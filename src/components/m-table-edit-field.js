@@ -55,6 +55,12 @@ class MTableEditField extends React.Component {
           value={this.props.value || null}
           onChange={this.props.onChange}
           clearable
+          cancelLabel={"Abbrechen"}
+          showTodayButton={true}
+          todayLabel={"Heute"}
+          clearLabel={"Löschen"}
+          okLabel={"Übernehmen"}
+          ampm={false}
           InputProps={{
             style: {
               fontSize: 13,
@@ -72,6 +78,12 @@ class MTableEditField extends React.Component {
           value={this.props.value || null}
           onChange={this.props.onChange}
           clearable
+          cancelLabel={"Abbrechen"}
+          showTodayButton={true}
+          todayLabel={"Heute"}
+          clearLabel={"Löschen"}
+          okLabel={"Übernehmen"}
+          ampm={false}
           InputProps={{
             style: {
               fontSize: 13,
@@ -89,6 +101,12 @@ class MTableEditField extends React.Component {
           value={this.props.value || null}
           onChange={this.props.onChange}
           clearable
+          cancelLabel={"Abbrechen"}
+          showTodayButton={true}
+          todayLabel={"Heute"}
+          clearLabel={"Löschen"}
+          okLabel={"Übernehmen"}
+          ampm={false}
           InputProps={{
             style: {
               fontSize: 13,
