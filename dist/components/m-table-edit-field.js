@@ -142,7 +142,7 @@ function (_React$Component) {
     key: "renderDateTimeField",
     value: function renderDateTimeField() {
       return React.createElement(_pickers.DateTimePicker, (0, _extends2["default"])({}, this.getProps(), {
-        format: "dd.MM.yyyy HH:mm:ss",
+        format: "DD.MM.YYYY HH:mm:ss",
         value: this.props.value || null,
         onChange: this.props.onChange,
         clearable: true,

@@ -97,7 +97,7 @@ class MTableEditField extends React.Component {
     return (
         <DateTimePicker
           {...this.getProps()}
-          format="dd.MM.yyyy HH:mm:ss"
+          format="DD.MM.YYYY HH:mm:ss"
           value={this.props.value || null}
           onChange={this.props.onChange}
           clearable
