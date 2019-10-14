@@ -104,6 +104,12 @@ function (_React$Component) {
         value: this.props.value || null,
         onChange: this.props.onChange,
         clearable: true,
+        cancelLabel: "Abbrechen",
+        showTodayButton: true,
+        todayLabel: "Heute",
+        clearLabel: "Löschen",
+        okLabel: "Übernehmen",
+        ampm: false,
         InputProps: {
           style: {
             fontSize: 13
@@ -119,6 +125,12 @@ function (_React$Component) {
         value: this.props.value || null,
         onChange: this.props.onChange,
         clearable: true,
+        cancelLabel: "Abbrechen",
+        showTodayButton: true,
+        todayLabel: "Heute",
+        clearLabel: "Löschen",
+        okLabel: "Übernehmen",
+        ampm: false,
         InputProps: {
           style: {
             fontSize: 13
@@ -134,6 +146,12 @@ function (_React$Component) {
         value: this.props.value || null,
         onChange: this.props.onChange,
         clearable: true,
+        cancelLabel: "Abbrechen",
+        showTodayButton: true,
+        todayLabel: "Heute",
+        clearLabel: "Löschen",
+        okLabel: "Übernehmen",
+        ampm: false,
         InputProps: {
           style: {
             fontSize: 13

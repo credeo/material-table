@@ -171,16 +171,34 @@ function (_React$Component) {
         dateInputElement = React.createElement(_pickers.DatePicker, {
           value: columnDef.tableData.filterValue || null,
           onChange: onDateInputChange,
+          cancelLabel: "Abbrechen",
+          showTodayButton: true,
+          todayLabel: "Heute",
+          clearLabel: "Löschen",
+          okLabel: "Übernehmen",
+          ampm: false,
           clearable: true
         });
       } else if (columnDef.type === 'datetime') {
         dateInputElement = React.createElement(_pickers.DateTimePicker, {
+          cancelLabel: "Abbrechen",
+          showTodayButton: true,
+          todayLabel: "Heute",
+          clearLabel: "Löschen",
+          okLabel: "Übernehmen",
+          ampm: false,
           value: columnDef.tableData.filterValue || null,
           onChange: onDateInputChange,
           clearable: true
         });
       } else if (columnDef.type === 'time') {
         dateInputElement = React.createElement(_pickers.TimePicker, {
+          cancelLabel: "Abbrechen",
+          showTodayButton: true,
+          todayLabel: "Heute",
+          clearLabel: "Löschen",
+          okLabel: "Übernehmen",
+          ampm: false,
           value: columnDef.tableData.filterValue || null,
           onChange: onDateInputChange,
           clearable: true
