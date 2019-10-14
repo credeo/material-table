@@ -187,9 +187,7 @@ function (_React$Component) {
         });
       }
 
-      return {
-        dateInputElement: dateInputElement
-      };
+      return React.createElement(React.Fragment, null, dateInputElement);
     });
     return _this;
   }

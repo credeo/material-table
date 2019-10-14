@@ -33,12 +33,11 @@ var _Select = _interopRequireDefault(require("@material-ui/core/Select"));
 
 var _MenuItem = _interopRequireDefault(require("@material-ui/core/MenuItem"));
 
-var _dateFns = _interopRequireDefault(require("@date-io/date-fns"));
-
 var _pickers = require("@material-ui/pickers");
 
 var _propTypes = _interopRequireDefault(require("prop-types"));
 
+//import DateFnsUtils from '@date-io/date-fns';
 var MTableEditField =
 /*#__PURE__*/
 function (_React$Component) {
