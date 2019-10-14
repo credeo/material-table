@@ -15,7 +15,7 @@ import InputAdornment from '@material-ui/core/InputAdornment';
 import Icon from '@material-ui/core/Icon';
 import Tooltip from '@material-ui/core/Tooltip';
 import DateFnsUtils from '@date-io/date-fns';
-import { MuiPickersUtilsProvider, TimePicker, DatePicker, DateTimePicker } from '@material-ui/pickers';
+import { TimePicker, DatePicker, DateTimePicker } from '@material-ui/pickers';
 
 const ITEM_HEIGHT = 48;
 const ITEM_PADDING_TOP = 8;
@@ -126,9 +126,7 @@ class MTableFilterRow extends React.Component {
     }
 
     return (
-      <MuiPickersUtilsProvider utils={DateFnsUtils}>
         {dateInputElement}
-      </MuiPickersUtilsProvider>
     );
   }
 
