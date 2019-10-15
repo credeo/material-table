@@ -117,8 +117,7 @@ function (_React$Component) {
           });
         } else {
           var editComponent = columnDef.editComponent,
-              required = columnDef.required,
-              cellProps = (0, _objectWithoutProperties2["default"])(columnDef, ["editComponent", "required"]);
+              cellProps = (0, _objectWithoutProperties2["default"])(columnDef, ["editComponent"]);
           var EditComponent = editComponent || _this2.props.components.EditField;
           return React.createElement(_TableCell["default"], {
             key: columnDef.tableData.id,
@@ -127,7 +126,6 @@ function (_React$Component) {
             key: columnDef.tableData.id,
             columnDef: cellProps,
             value: value,
-            required: required,
             rowData: _this2.state.data,
             onChange: function onChange(value) {
               var data = (0, _objectSpread2["default"])({}, _this2.state.data);

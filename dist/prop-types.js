@@ -50,7 +50,6 @@ var propTypes = {
     grouping: _propTypes["default"].bool,
     headerStyle: _propTypes["default"].object,
     hidden: _propTypes["default"].bool,
-    required: _propTypes["default"].bool,
     initialEditValue: _propTypes["default"].any,
     lookup: _propTypes["default"].object,
     editable: _propTypes["default"].oneOf(['always', 'onUpdate', 'onAdd', 'never', _propTypes["default"].func]),
