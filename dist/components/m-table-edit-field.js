@@ -175,6 +175,7 @@ function (_React$Component) {
           return _this3.props.onChange(event.target.value);
         },
         multiline: true,
+        required: true,
         rowsMax: 3,
         InputProps: {
           style: {

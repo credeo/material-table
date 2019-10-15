@@ -117,6 +117,7 @@ class MTableEditField extends React.Component {
   }
 
   renderTextField() {
+
     return (
       <TextField
         {...this.getProps()}
@@ -126,6 +127,7 @@ class MTableEditField extends React.Component {
         value={this.props.value === undefined ? '' : this.props.value}
         onChange={event => this.props.onChange(event.target.value)}
         multiline
+        required={true}
         rowsMax={3}
         InputProps={{
           style: {
