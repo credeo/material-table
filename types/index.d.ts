@@ -116,6 +116,7 @@ export interface Column<RowData extends object> {
   grouping?: boolean;
   headerStyle?: React.CSSProperties;
   hidden?: boolean;
+  required?: boolean;
   initialEditValue?: any,
   lookup?: object;
   editable?: ('always' | 'onUpdate' | 'onAdd' | 'never' | ((columnDef: Column<RowData>, rowData: RowData) => boolean));
