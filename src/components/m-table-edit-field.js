@@ -125,6 +125,8 @@ class MTableEditField extends React.Component {
         placeholder={this.props.columnDef.title}
         value={this.props.value === undefined ? '' : this.props.value}
         onChange={event => this.props.onChange(event.target.value)}
+        multiline
+        rowsMax={3}
         InputProps={{
           style: {
             fontSize: 13,

@@ -174,6 +174,8 @@ function (_React$Component) {
         onChange: function onChange(event) {
           return _this3.props.onChange(event.target.value);
         },
+        multiline: true,
+        rowsMax: 3,
         InputProps: {
           style: {
             fontSize: 13
