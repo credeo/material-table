@@ -271,6 +271,8 @@ function (_React$Component) {
 
           _this.dataManager.setData(result.data);
 
+          console.log(query);
+
           _this.setState((0, _objectSpread2["default"])({
             isLoading: false
           }, _this.dataManager.getRenderState(), {

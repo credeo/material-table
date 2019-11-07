@@ -339,6 +339,9 @@ export default class MaterialTable extends React.Component {
         query.totalCount = result.totalCount;
         query.page = result.page;
         this.dataManager.setData(result.data);
+
+        console.log(query);
+        
         this.setState({
           isLoading: false,
           ...this.dataManager.getRenderState(),
