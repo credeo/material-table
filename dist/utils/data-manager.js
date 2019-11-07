@@ -291,7 +291,7 @@ function () {
       this.columns = columns.map(function (columnDef, index) {
         columnDef.tableData = (0, _objectSpread2["default"])({
           columnOrder: index,
-          //filterValue: columnDef.defaultFilter,
+          filterValue: columnDef.defaultFilter,
           groupOrder: columnDef.defaultGroupOrder,
           groupSort: columnDef.defaultGroupSort || 'asc'
         }, columnDef.tableData, {
