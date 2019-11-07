@@ -60,7 +60,7 @@ export default class DataManager {
     this.columns = columns.map((columnDef, index) => {
       columnDef.tableData = {
         columnOrder: index,
-        filterValue: columnDef.defaultFilter,
+        //filterValue: columnDef.defaultFilter,
         groupOrder: columnDef.defaultGroupOrder,
         groupSort: columnDef.defaultGroupSort || 'asc',
         ...columnDef.tableData,
