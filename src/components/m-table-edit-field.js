@@ -106,6 +106,7 @@ class MTableEditField extends React.Component {
           todayLabel={"Heute"}
           clearLabel={"Löschen"}
           okLabel={"Übernehmen"}
+          maxDate={new Date("2038-01-18")}
           ampm={false}
           InputProps={{
             style: {
